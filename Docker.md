@@ -3,7 +3,7 @@
 ---
 
 ### **1. Prerequisites**
-Before starting the lab, ensure you have the following installed:
+Before starting   ensure you have the following installed:
 - **Docker**: [Install Docker](https://docs.docker.com/get-docker/)
 - **Minikube**: [Install Minikube](https://minikube.sigs.k8s.io/docs/start/)
 - **kubectl**: [Install kubectl](https://kubernetes.io/docs/tasks/tools/)
