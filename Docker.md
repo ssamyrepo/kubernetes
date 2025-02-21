@@ -1,4 +1,4 @@
-### **Lab Steps: Introduction to Microservices, Docker, and Kubernetes**
+### **Microservices, Docker, and Kubernetes**
 
 ---
 
