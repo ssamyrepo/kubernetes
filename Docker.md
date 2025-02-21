@@ -14,7 +14,7 @@ Before starting   ensure you have the following installed:
 ### **2. Understanding Microservices**
 - **Objective**: Learn the difference between monolithic and microservices architectures.
 - **Steps**:
-  1. Watch the video segment (00:01 - 05:55) to understand microservices.
+  1. Complete the pre-reqs
   2. Compare monolithic vs. microservices architecture:
      - Monolithic: Single application with UI, business logic, and database.
      - Microservices: Independent services communicating via HTTP APIs.
@@ -25,7 +25,7 @@ Before starting   ensure you have the following installed:
 ### **3. Introduction to Docker**
 - **Objective**: Learn how to containerize applications using Docker.
 - **Steps**:
-  1. Watch the video segment (05:55 - 11:28) to understand Docker.
+  1. Complete the pre-reqs
   2. Install Docker if not already installed.
   3. Run a simple Docker container:
      ```bash
@@ -56,7 +56,7 @@ Before starting   ensure you have the following installed:
 ### **4. Creating a Docker Image**
 - **Objective**: Create a custom Docker image for a Node.js application.
 - **Steps**:
-  1. Watch the video segment (36:40 - 47:42) to understand Dockerfile creation.
+  1. First nderstand Dockerfile creation.
   2. Create a Node.js application:
      - Initialize a new Node.js project:
        ```bash
@@ -107,7 +107,7 @@ Before starting   ensure you have the following installed:
 ### **5. Introduction to Kubernetes**
 - **Objective**: Deploy and manage containers using Kubernetes.
 - **Steps**:
-  1. Watch the video segment (11:28 - 19:11) to understand Kubernetes.
+  1. understand Kubernetes.
   2. Start Minikube:
      ```bash
      minikube start
@@ -174,7 +174,7 @@ Before starting   ensure you have the following installed:
 ### **6. Scaling and Load Balancing**
 - **Objective**: Learn how to scale applications in Kubernetes.
 - **Steps**:
-  1. Watch the video segment (34:07 - 35:40) to understand scaling.
+  1. understand scaling.
   2. Scale the deployment:
      ```bash
      kubectl scale deployment myapp-deployment --replicas=5
