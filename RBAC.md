@@ -33,7 +33,7 @@ kubectl apply -f .
 ```
 Verify that the API is running:
 ```bash
-kubectl get pods -n grade-demo
+kubectl get pods -n demo
 ```
 
 ---
