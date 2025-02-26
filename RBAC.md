@@ -41,14 +41,14 @@ kubectl get pods -n grade-demo
 ## **Step 3: Test the API**
 Use `curl` to interact with the API.
 
-### **Add grades (POST request)**
+### **Add marks (POST request)**
 ```bash
-curl -X POST http://localhost:31000/grades -d '{"name":"Harry","score":85}' -H "Content-Type: application/json"
+curl -X POST http://localhost:31000/marks -d '{"name":"Harry","score":85}' -H "Content-Type: application/json"
 ```
 
-### **Retrieve grades (GET request)**
+### **Retrieve marks (GET request)**
 ```bash
-curl -X GET http://localhost:31000/grades
+curl -X GET http://localhost:31000/marks
 ```
 
 **Issue Identified**:  
@@ -96,7 +96,7 @@ We will add a **sidecar container** named `kube-rbac-proxy`, which will:
 ### **Test Secure Access**
 Try accessing the API again:
 ```bash
-curl -k -X GET https://localhost:31000/grades
+curl -k -X GET https://localhost:31000/marks
 ```
 **Expected Result**:  
 `Unauthorized` – This confirms that access is now restricted.
@@ -158,7 +158,7 @@ Currently, the service account does not have permissions to access the API.
    - apiGroups: [""]
      resources: ["pods", "services"]
      verbs: ["get", "list"]
-   - nonResourceURLs: ["/grades"]
+   - nonResourceURLs: ["/marks"]
      verbs: ["get", "post"]
    ```
 
@@ -191,7 +191,7 @@ Currently, the service account does not have permissions to access the API.
 Now, use the token to make an authenticated request:
 
 ```bash
-curl -k -H "Authorization: Bearer $TOKEN" https://localhost:31000/grades
+curl -k -H "Authorization: Bearer $TOKEN" https://localhost:31000/marks
 ```
 
 ### **Expected Result**  
@@ -247,7 +247,7 @@ kubectl apply -f proxy-binding.yaml
 ## **Final Step: Test Again**
 Try accessing the API again:
 ```bash
-curl -k -H "Authorization: Bearer $TOKEN" https://localhost:31000/grades
+curl -k -H "Authorization: Bearer $TOKEN" https://localhost:31000/marks
 ```
 
 ### **Expected Result**  
