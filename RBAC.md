@@ -6,7 +6,7 @@
 ## **Step 1: Clone the Repository**
 Start by cloning the tutorial repository that contains the necessary starter code.
 
-1. Copy the repository URL from the video description.
+1. Copy the repository URL .
 2. Open a terminal and navigate to your desired directory.
 3. Clone the repository using:
    ```bash
