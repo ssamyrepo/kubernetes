@@ -12,18 +12,18 @@ Before starting   ensure you have the following installed:
 ---
 
 ### **2. Understanding Microservices**
-- **Objective**: Learn the difference between monolithic and microservices architectures.
+- **Objective**: difference between monolithic and microservices architectures.
 - **Steps**:
   1. Complete the pre-reqs
   2. Compare monolithic vs. microservices architecture:
      - Monolithic: Single application with UI, business logic, and database.
      - Microservices: Independent services communicating via HTTP APIs.
-  3. Discuss advantages (scalability, fault isolation) and disadvantages (complexity, overhead).
+  3.  advantages (scalability, fault isolation) and disadvantages (complexity, overhead).
 
 ---
 
 ### **3. Introduction to Docker**
-- **Objective**: Learn how to containerize applications using Docker.
+- **Objective**:  how to containerize applications using Docker.
 - **Steps**:
   1. Complete the pre-reqs
   2. Install Docker if not already installed.
@@ -107,7 +107,7 @@ Before starting   ensure you have the following installed:
 ### **5. Introduction to Kubernetes**
 - **Objective**: Deploy and manage containers using Kubernetes.
 - **Steps**:
-  1. understand Kubernetes.
+  1. Kubernetes.
   2. Start Minikube:
      ```bash
      minikube start
@@ -172,7 +172,7 @@ Before starting   ensure you have the following installed:
 ---
 
 ### **6. Scaling and Load Balancing**
-- **Objective**: Learn how to scale applications in Kubernetes.
+- **Objective**:  how to scale applications in Kubernetes.
 - **Steps**:
   1. understand scaling.
   2. Scale the deployment:
