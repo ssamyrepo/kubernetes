@@ -11,7 +11,7 @@ Before starting   ensure you have the following installed:
 
 ---
 
-### **2. Understanding Microservices**
+### **2.  Microservices**
 - **Objective**: difference between monolithic and microservices architectures.
 - **Steps**:
   1. Complete the pre-reqs
