@@ -11,7 +11,7 @@ Before starting, ensure you have the following:
 ---
 
 ### **2. Understanding Kubernetes Deployments**
-- **Objective**: Learn how Deployments manage ReplicaSets and Pods.
+- **Objective**:  how Deployments manage ReplicaSets and Pods.
 - **Key Concepts**:
   - **Pod**: The smallest deployable unit in Kubernetes, running one or more containers.
   - **ReplicaSet**: Ensures a specified number of Pod replicas are running.
