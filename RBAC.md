@@ -1,5 +1,5 @@
 ## **Introduction**
- **Kubernetes Role-Based Access Control (RBAC)** by implementing secure access control for a **Grade Submission API**. This will guide you through setting up **Service Accounts, Cluster Roles, Role Bindings**, and token authentication to ensure only authorized clients can access resources.
+ **Kubernetes Role-Based Access Control (RBAC)** by implementing secure access control for **Service Accounts, Cluster Roles, Role Bindings**, and token authentication to ensure only authorized clients can access resources.
 
 ---
 
