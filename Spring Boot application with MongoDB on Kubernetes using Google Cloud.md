@@ -149,13 +149,4 @@
 
 ---
 
-### **Step 9: Document and Share Your Project**
-1. **Document the Steps**:
-   - Write a README file explaining the project setup and steps.
-
-2. **Share the Code**:
-   - Push the code to a GitHub repository.
-
-3. **Create a Video or Blog**:
-   - Share your learnings by creating a tutorial video or blog post.
 
