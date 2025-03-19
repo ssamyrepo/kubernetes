@@ -1,6 +1,6 @@
 
 
-### **Step 1: Understand the Project Scope**
+### **Step 1: Project Scope**
 1. **Objective**: Build a Spring Boot application integrated with MongoDB, containerize it using Docker, deploy it on Kubernetes, and host it on Google Cloud Platform (GCP).
 2. **Technologies Used**:
    - Spring Boot (Java framework for backend development)
